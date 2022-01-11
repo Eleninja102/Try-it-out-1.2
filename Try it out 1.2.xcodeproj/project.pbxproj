@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DF6A678278DE130004BDE28 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF6A677278DE130004BDE28 /* main.swift */; };
+		1DF6A678278DE130004BDE28 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DF6A677278DE130004BDE28 /* main.cpp */; };
+		1DF6A680278DE15A004BDE28 /* Distance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DF6A67E278DE15A004BDE28 /* Distance.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		1DF6A674278DE130004BDE28 /* Try it out 1.2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Try it out 1.2"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DF6A677278DE130004BDE28 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1DF6A677278DE130004BDE28 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1DF6A67E278DE15A004BDE28 /* Distance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Distance.cpp; sourceTree = "<group>"; };
+		1DF6A67F278DE15A004BDE28 /* Distance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Distance.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		1DF6A676278DE130004BDE28 /* Try it out 1.2 */ = {
 			isa = PBXGroup;
 			children = (
-				1DF6A677278DE130004BDE28 /* main.swift */,
+				1DF6A677278DE130004BDE28 /* main.cpp */,
+				1DF6A67E278DE15A004BDE28 /* Distance.cpp */,
+				1DF6A67F278DE15A004BDE28 /* Distance.hpp */,
 			);
 			path = "Try it out 1.2";
 			sourceTree = "<group>";
@@ -120,7 +125,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DF6A678278DE130004BDE28 /* main.swift in Sources */,
+				1DF6A680278DE15A004BDE28 /* Distance.cpp in Sources */,
+				1DF6A678278DE130004BDE28 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
